@@ -13,7 +13,7 @@ export const WORKSHOPS: Workshop[] = [
     emoji: "🇰🇷",
     title: "Korean Language",
     slug: "korean-language",
-    tagline: "Learn Hangul, greetings, and essential phrases in a fun 3-hour session",
+    tagline: "Write your name in Korean and master essential phrases in a fun 3-hour session",
     sessions: 3,
     instructor: "Yebin Heo & Rebeka",
     tag: "Language",

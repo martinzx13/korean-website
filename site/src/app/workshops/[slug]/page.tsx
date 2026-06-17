@@ -114,8 +114,8 @@ export default async function WorkshopPage({ params }: { params: Promise<{ slug:
                 <div className="flex gap-4">
                   <span className="text-2xl leading-none font-display text-foreground/70 mt-0.5">ㄱ</span>
                   <div>
-                    <p className="text-sm font-semibold text-foreground mb-1">Hangul Foundation</p>
-                    <p className="text-sm text-foreground/55 leading-relaxed">Write and read the Korean alphabet — consonants, vowels, and batchim.</p>
+                    <p className="text-sm font-semibold text-foreground mb-1">Write Your Name in Korean</p>
+                    <p className="text-sm text-foreground/55 leading-relaxed">Learn enough Hangul — consonants, vowels, and batchim — to write and pronounce your own name.</p>
                   </div>
                 </div>
                 <div className="flex gap-4">
