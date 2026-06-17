@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Korean Language & Kitchen Workshops
 
 Promotional + booking website for Korean cultural workshops in Portugal. Language classes and cooking experiences (Kimchi, Bossam, and more).
@@ -17,12 +16,9 @@ Promotional + booking website for Korean cultural workshops in Portugal. Languag
 
 | Directory | Purpose |
 |-----------|---------|
-| `content/` | Markdown data for landing page (workshops, instructors) |
-| `components/` | React components (landing + booking flow) |
-| `app/` | Next.js App Router pages + API routes |
-| `lib/` | Utility modules (Supabase, email, QR, formatting) |
-| `types/` | Shared TypeScript interfaces |
+| `site/` | Next.js project (App Router, components, API routes) |
 | `docs/` | Architecture, roadmap, design briefs, workshop materials |
+| `figma/` | Original Figma export (reference only) |
 
 ## Phases
 
@@ -35,6 +31,3 @@ Promotional + booking website for Korean cultural workshops in Portugal. Languag
 | 5 | Polish + deploy |
 
 See `docs/ROADMAP.md` for details.
-=======
-# korean-website
->>>>>>> f2b088071ae03c4aaf525eaec4bce026f51b3968
