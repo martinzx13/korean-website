@@ -64,8 +64,24 @@ export default async function BookingPage({ params }: { params: Promise<{ id: st
               <ul className="text-xs text-amber-700 space-y-1.5">
                 <li className="flex gap-2"><span>•</span> Do not close this page until you save the payment details above.</li>
                 <li className="flex gap-2"><span>•</span> We also sent these instructions to <strong>{booking.email}</strong> — check your inbox (and spam).</li>
+                <li className="flex gap-2"><span>•</span> You can refresh this page to check if your payment was confirmed.</li>
                 <li className="flex gap-2"><span>•</span> After we confirm your payment, you&apos;ll receive a QR voucher by email.</li>
               </ul>
+            </div>
+
+            <div className="flex flex-col gap-3 mt-6">
+              <a
+                href={`https://wa.me/351937254422?text=Hi%2C%20payment%20proof%20for%20booking%20${id}`}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center justify-center gap-2 bg-[#25D366] text-white px-6 py-3.5 rounded-full text-sm font-medium hover:bg-[#20BD5A] transition-colors"
+              >
+                Send Payment Proof via WhatsApp
+              </a>
+              <p className="text-xs text-foreground/40 text-center">
+                Or email us at{" "}
+                <a href="mailto:juan.martinxz43@gmail.com" className="text-primary underline">juan.martinxz43@gmail.com</a>
+              </p>
             </div>
           </>
         )}

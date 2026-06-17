@@ -11,7 +11,7 @@ export async function sendPendingEmail(to: string, name: string, workshop: strin
     from: `Hanguk Studio <${from}>`,
     to,
     subject: `Booking Pending — ${workshop}`,
-    text: `Hi ${name},\n\nYour booking for ${workshop} on ${date} at ${time} is pending.\n\nTotal: €${total}\n\nHow to pay:\n- Wise: [FAKE] maria@hangukstudio.com\n- MBWay: [FAKE] +351 900 000 000\n- Bank Transfer: [FAKE] PT50 1234 5678 9012 3456 7890 1\n\nPay within 24h to secure your spot.\n\nBooking ID: ${bookingId}\n\n— Hanguk Studio`,
+    text: `Hi ${name},\n\nYour booking for ${workshop} on ${date} at ${time} is pending.\n\nTotal: €${total}\n\nHow to pay:\n- Wise: [FAKE] maria@hangukstudio.com\n- MBWay: [FAKE] +351 900 000 000\n- Bank Transfer: [FAKE] PT50 1234 5678 9012 3456 7890 1\n\nPay within 24h to secure your spot.\n\nBooking ID: ${bookingId}\n\nSend payment proof via WhatsApp: https://wa.me/351937254422?text=Hi%2C%20payment%20proof%20for%20booking%20${bookingId}\nOr email: juan.martinxz43@gmail.com\n\n— Hanguk Studio`,
   });
 }
 
