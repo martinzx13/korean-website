@@ -17,7 +17,7 @@ export interface Instructor {
   specialty: string;
   bio: string;
   hue: string;
-  photo: string;
+  photo?: string;
   photoAlt: string;
   workshops: string[];
 }

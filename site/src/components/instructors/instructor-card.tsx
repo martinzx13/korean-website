@@ -28,12 +28,26 @@ export default function InstructorCard({ inst }: { inst: Instructor }) {
           className="absolute inset-0 rounded-[20px] overflow-hidden bg-muted"
           style={{ backfaceVisibility: "hidden" }}
         >
-          <img
-            src={inst.photo}
-            alt={inst.photoAlt}
-            className="w-full h-full object-cover"
-            style={{ filter: "brightness(0.88) saturate(0.9)" }}
-          />
+          {inst.photo ? (
+            <img
+              src={inst.photo}
+              alt={inst.photoAlt}
+              className="w-full h-full object-cover"
+              style={{ filter: "brightness(0.88) saturate(0.9)" }}
+            />
+          ) : (
+            <div
+              className="w-full h-full flex items-center justify-center"
+              style={{ backgroundColor: `${inst.hue}15` }}
+            >
+              <span
+                className="text-6xl font-bold font-display"
+                style={{ color: inst.hue, opacity: 0.85 }}
+              >
+                {inst.initials}
+              </span>
+            </div>
+          )}
           <div
             className="absolute inset-0"
             style={{

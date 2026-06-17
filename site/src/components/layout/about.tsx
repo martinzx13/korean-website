@@ -20,7 +20,7 @@ export default function About() {
           <div className="mt-12 pt-8 border-t border-border grid grid-cols-3 gap-6">
             {[
               { value: "30", label: "per class" },
-              { value: "2", label: "expert instructors" },
+              { value: "3", label: "expert instructors" },
               { value: "2", label: "disciplines" },
             ].map(({ value, label }) => (
               <div key={label}>
@@ -39,8 +39,8 @@ export default function About() {
             style={{ filter: "brightness(0.9) saturate(0.92)" }}
           />
           <div className="absolute inset-0 rounded-[24px]" style={{ background: "rgba(212,93,58,0.04)" }} />
-          <div className="absolute bottom-6 left-6 right-6 bg-background/88 backdrop-blur-sm rounded-xl px-5 py-3 border border-border/60">
-            <p className="text-xs text-foreground/55 tracking-wide">
+          <div className="absolute bottom-6 left-6 right-6 bg-white/90 rounded-xl px-5 py-3 border border-border/60 shadow-sm">
+            <p className="text-xs text-foreground/75 tracking-wide">
               Korean table culture — <em className="font-display">bap sang</em> philosophy
             </p>
           </div>

@@ -12,19 +12,19 @@ export default function Hero() {
       <div className="absolute inset-0 pointer-events-none overflow-hidden select-none" aria-hidden>
         <span
           className="absolute top-24 right-[44%] text-[180px] font-bold leading-none font-display"
-          style={{ color: "rgba(44,44,44,0.025)" }}
+          style={{ color: "rgba(44,44,44,0.04)" }}
         >
           한
         </span>
         <span
           className="absolute bottom-24 left-6 text-[100px] font-bold leading-none font-display"
-          style={{ color: "rgba(44,44,44,0.03)" }}
+          style={{ color: "rgba(44,44,44,0.05)" }}
         >
           국
         </span>
         <span
           className="absolute top-1/2 -translate-y-1/2 left-[40%] text-[64px] font-light leading-none font-display"
-          style={{ color: "rgba(44,44,44,0.025)" }}
+          style={{ color: "rgba(44,44,44,0.04)" }}
         >
           어
         </span>
@@ -81,11 +81,11 @@ export default function Hero() {
         />
         <div className="absolute inset-0" style={{ background: "rgba(212,93,58,0.04)" }} />
 
-        <div className="absolute bottom-28 left-10 bg-background/96 backdrop-blur-md border border-border/70 rounded-2xl px-6 py-5 shadow-lg">
+        <div className="absolute bottom-28 left-10 bg-white/90 border border-border/70 rounded-2xl px-6 py-5 shadow-lg">
           <p className="text-3xl font-semibold text-foreground font-display">2</p>
           <p className="text-xs text-foreground/45 tracking-widest mt-1 uppercase">Workshops available</p>
         </div>
-        <div className="absolute top-40 right-8 bg-background/96 backdrop-blur-md border border-border/70 rounded-2xl px-6 py-5 shadow-lg">
+        <div className="absolute top-40 right-8 bg-white/90 border border-border/70 rounded-2xl px-6 py-5 shadow-lg">
           <p className="text-3xl font-semibold text-foreground font-display">30</p>
           <p className="text-xs text-foreground/45 tracking-widest mt-1 uppercase">Spots per session</p>
         </div>
