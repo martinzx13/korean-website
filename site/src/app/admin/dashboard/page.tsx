@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useEffect } from "react";
+import { useState, useEffect, Suspense } from "react";
 import { useSearchParams } from "next/navigation";
 
 interface Booking {
@@ -32,7 +32,7 @@ interface SessionInfo {
   available_spots: number;
 }
 
-export default function AdminDashboard() {
+function DashboardContent() {
   const searchParams = useSearchParams();
   const pwd = searchParams.get("pwd") || "";
 
@@ -91,7 +91,6 @@ export default function AdminDashboard() {
         <h1 className="text-2xl font-display text-foreground mb-2">Bookings</h1>
         <p className="text-xs text-foreground/40 tracking-wider uppercase mb-8">Admin Dashboard</p>
 
-        {/* Session availability summary */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3 mb-10">
           {sessions.map((s) => {
             const booked = s.capacity - s.available_spots;
@@ -183,5 +182,13 @@ export default function AdminDashboard() {
         </div>
       </div>
     </main>
+  );
+}
+
+export default function AdminDashboard() {
+  return (
+    <Suspense fallback={<main className="min-h-screen bg-background pt-32 px-6"><p className="text-center">Loading...</p></main>}>
+      <DashboardContent />
+    </Suspense>
   );
 }
