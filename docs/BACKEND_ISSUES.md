@@ -65,18 +65,15 @@
 
 ## 🔲 Before Launch
 
-### Replace All [FAKE] Payment Details
+### ✅ Replace All [FAKE] Payment Details — Done
 **Files to update:**
 - `site/src/app/booking/[id]/page.tsx` — Wise/MBWay/Bank Transfer details on booking page
 - `site/src/lib/email.ts` — payment instructions in email template
 - `docs/PAYMENT_FLOW.md` — reference documentation
 
-### Admin Password
-- Default: username `admin`, password `admin` (bcrypt hash is placeholder)
-- **Action**: Generate real bcrypt hash and update in Supabase:
-  ```sql
-  UPDATE admin_users SET password_hash = '$2b$10$...' WHERE username = 'admin';
-  ```
+### ✅ Admin Password — Done (Moved to ENV Var)
+- No longer uses DB hash — admin auth is done via `ADMIN_PASSWORD` env var in `.env.local` and Vercel
+- Current value in Vercel: set by user
 
 ### Resend Custom Domain
 - Currently sending from `onboarding@resend.dev` — sanded delivery, shows "via resend.dev"

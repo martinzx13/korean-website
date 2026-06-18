@@ -52,9 +52,9 @@ export default async function BookingPage({ params }: { params: Promise<{ id: st
             <div className="bg-muted rounded-2xl p-6 text-left">
               <h2 className="text-sm font-semibold text-foreground mb-4">How to Pay</h2>
               <div className="space-y-3 text-sm text-foreground/60">
-                <p><strong className="text-foreground">Wise:</strong> [FAKE] maria@hangukstudio.com</p>
-                <p><strong className="text-foreground">MBWay:</strong> [FAKE] +351 900 000 000</p>
-                <p><strong className="text-foreground">Bank Transfer:</strong> [FAKE] PT50 1234 5678 9012 3456 7890 1</p>
+                <p><strong className="text-foreground">Wise:</strong> <a href="https://wise.com/pay/me/juanm4246" target="_blank" rel="noopener noreferrer" className="text-primary underline">wise.com/pay/me/juanm4246</a></p>
+                <p><strong className="text-foreground">MBWay:</strong> +351 937 254 422</p>
+                <p><strong className="text-foreground">Bank Transfer:</strong> PT50 0033 0000 4563 0180 0200 5</p>
               </div>
               <p className="text-xs text-foreground/40 mt-4">We&apos;ll email you a confirmation + QR voucher once payment is confirmed.</p>
             </div>

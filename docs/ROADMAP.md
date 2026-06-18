@@ -75,7 +75,7 @@
 
 ## 🔲 Phase 6 — Launch Prep
 
-- [ ] Replace all `[FAKE]` payment details with real Wise/MBWay/Bank info
+- [x] Replace all `[FAKE]` payment details with real Wise/MBWay/Bank info
 - [ ] Generate real bcrypt hash for admin password (change from `admin`/`admin`)
 - [ ] Set up custom Resend domain (replace `onboarding@resend.dev`)
 - [ ] Deploy to Vercel
