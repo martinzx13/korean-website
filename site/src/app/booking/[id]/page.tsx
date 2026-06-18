@@ -56,7 +56,7 @@ export default async function BookingPage({ params }: { params: Promise<{ id: st
                 <p><strong className="text-foreground">MBWay:</strong> +351 937 254 422</p>
                 <p><strong className="text-foreground">Bank Transfer:</strong> PT50 0033 0000 4563 0180 0200 5</p>
               </div>
-              <p className="text-xs text-foreground/40 mt-4">We&apos;ll email you a confirmation + QR voucher once payment is confirmed.</p>
+              <p className="text-xs text-foreground/40 mt-4">Once your payment is confirmed, we&apos;ll send you the exact location by email.</p>
             </div>
 
             <div className="bg-amber-50/50 border border-amber-200 rounded-2xl p-5 mt-6 text-left">

@@ -20,19 +20,19 @@ export default function Footer() {
 
             <div className="space-y-5">
               <a
-                href="mailto:hello@hangukstudio.com"
+                href="mailto:juan.martinxz43@gmail.com"
                 className="flex items-center gap-4 text-foreground/60 hover:text-primary transition-colors duration-200 group"
               >
                 <div className="w-9 h-9 rounded-full border border-border flex items-center justify-center group-hover:border-primary transition-colors">
                   <Mail size={14} />
                 </div>
-                <span className="text-sm">hello@hangukstudio.com</span>
+                <span className="text-sm">juan.martinxz43@gmail.com</span>
               </a>
               <div className="flex items-center gap-4 text-foreground/60">
                 <div className="w-9 h-9 rounded-full border border-border flex items-center justify-center">
                   <MapPin size={14} />
                 </div>
-                <span className="text-sm">Portugal · Workshops in your city</span>
+                  <span className="text-sm">Lisbon · Olaias</span>
               </div>
             </div>
 

@@ -260,7 +260,7 @@ export default function BookingPage() {
                   <div className="p-4 rounded-xl border border-border bg-muted/50 text-sm text-foreground/60 space-y-2">
                     <p><strong className="text-foreground">Cancellation:</strong> You may cancel up to 24 hours before the session. Cancellations on the day of the event or no-shows are non-refundable.</p>
                     <p><strong className="text-foreground">Age:</strong> Participants must be 12+. Minors must be accompanied by an adult.</p>
-                    <p><strong className="text-foreground">Contact:</strong> For questions or cancellations, email <a href="mailto:hello@hangukstudio.com" className="text-primary underline">hello@hangukstudio.com</a></p>
+                    <p><strong className="text-foreground">Contact:</strong> For questions or cancellations, email <a href="mailto:juan.martinxz43@gmail.com" className="text-primary underline">juan.martinxz43@gmail.com</a></p>
                   </div>
 
                   {isCooking && (
