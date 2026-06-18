@@ -15,7 +15,7 @@ export const WORKSHOPS: Workshop[] = [
     slug: "korean-language",
     tagline: "Write your name in Korean and master essential phrases in a fun 3-hour session",
     sessions: 3,
-    instructor: "Yebin Heo & Hyoina Jung",
+    instructor: "Yebin Heo & Hyo In Jung",
     tag: "Language",
     price: "€20/person",
     duration: "3h",
@@ -26,7 +26,7 @@ export const WORKSHOPS: Workshop[] = [
     slug: "kimchi-bossam",
     tagline: "Make fresh kimchi (Geotjeori) and boiled pork from scratch",
     sessions: 3,
-    instructor: "Yebin Heo & Hyoina Jung",
+    instructor: "Yebin Heo & Hyo In Jung",
     tag: "Kitchen",
     price: "€50/person · €60/couple",
     duration: "3h",
@@ -46,7 +46,7 @@ export const INSTRUCTORS: Instructor[] = [
     workshops: ["Korean Language", "Kimchi & Bossam"],
   },
   {
-    name: "Hyoina Jung",
+    name: "Hyo In Jung",
     initials: "HJ",
     specialty: "Language & Home Cooking",
     bio: "Learn Korean and home cooking from a certified instructor backed by 6 years of language tutoring experience and a 10-year love for home cooking.",
@@ -58,10 +58,10 @@ export const INSTRUCTORS: Instructor[] = [
 ];
 
 export const SESSIONS: Session[] = [
-  { day: "Fri 26", date: "2026-06-26", time: "10:00–13:00", workshop: "Korean Language", workshopSlug: "korean-language", instructor: "Yebin Heo & Hyoina Jung", format: "In-person" },
-  { day: "Fri 26", date: "2026-06-26", time: "17:00–20:00", workshop: "Kimchi & Bossam", workshopSlug: "kimchi-bossam", instructor: "Yebin Heo & Hyoina Jung", format: "In-person" },
-  { day: "Sat 27", date: "2026-06-27", time: "10:00–13:00", workshop: "Korean Language", workshopSlug: "korean-language", instructor: "Yebin Heo & Hyoina Jung", format: "In-person" },
-  { day: "Sat 27", date: "2026-06-27", time: "17:00–20:00", workshop: "Kimchi & Bossam", workshopSlug: "kimchi-bossam", instructor: "Yebin Heo & Hyoina Jung", format: "In-person" },
-  { day: "Sun 28", date: "2026-06-28", time: "10:00–13:00", workshop: "Korean Language", workshopSlug: "korean-language", instructor: "Yebin Heo & Hyoina Jung", format: "In-person" },
-  { day: "Sun 28", date: "2026-06-28", time: "17:00–20:00", workshop: "Kimchi & Bossam", workshopSlug: "kimchi-bossam", instructor: "Yebin Heo & Hyoina Jung", format: "In-person" },
+  { day: "Fri 26", date: "2026-06-26", time: "10:00–13:00", workshop: "Korean Language", workshopSlug: "korean-language", instructor: "Yebin Heo & Hyo In Jung", format: "In-person" },
+  { day: "Fri 26", date: "2026-06-26", time: "17:00–20:00", workshop: "Kimchi & Bossam", workshopSlug: "kimchi-bossam", instructor: "Yebin Heo & Hyo In Jung", format: "In-person" },
+  { day: "Sat 27", date: "2026-06-27", time: "10:00–13:00", workshop: "Korean Language", workshopSlug: "korean-language", instructor: "Yebin Heo & Hyo In Jung", format: "In-person" },
+  { day: "Sat 27", date: "2026-06-27", time: "17:00–20:00", workshop: "Kimchi & Bossam", workshopSlug: "kimchi-bossam", instructor: "Yebin Heo & Hyo In Jung", format: "In-person" },
+  { day: "Sun 28", date: "2026-06-28", time: "10:00–13:00", workshop: "Korean Language", workshopSlug: "korean-language", instructor: "Yebin Heo & Hyo In Jung", format: "In-person" },
+  { day: "Sun 28", date: "2026-06-28", time: "17:00–20:00", workshop: "Kimchi & Bossam", workshopSlug: "kimchi-bossam", instructor: "Yebin Heo & Hyo In Jung", format: "In-person" },
 ];
